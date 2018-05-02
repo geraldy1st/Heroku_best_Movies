@@ -1,0 +1,6 @@
+<h1>Best Movies ever</h1>
+
+<% @movies.each do |movie| %>
+    <p><%= movie.title %>, réalisé par <%= movie.director %>, sorti en <%= movie.release_year %></p>
+<% end %>
+<hr>
